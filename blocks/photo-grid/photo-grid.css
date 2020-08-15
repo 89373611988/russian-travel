@@ -3,16 +3,18 @@
 .photo-grid {
   margin: 0 48px;
   display: grid;
+  justify-content: center;
   grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
   grid-template-rows: repeat(auto-fit, minmax(213px, 1fr));
   gap: 16px;
   padding: 0;
 }
 
-@media (min-width: 1550px) {
+@media (min-width: 1280px) {
   .photo-grid {
     grid-template-columns: repeat(4, 284px);
-    margin: 0 auto;
+    grid-template-rows: repeat(3, 213px);
+    gap: 16px;
   }
 }
 

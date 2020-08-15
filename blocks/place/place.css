@@ -28,10 +28,11 @@
   }
 }
 
-
 @media (max-width: 767px) {
   .place {
-    column-gap: 28px;
+    grid-template-columns: repeat(1, minmax(320px, 1fr));
+    column-gap: 0;
+    row-gap: 32px;
   }
 }
 

@@ -16,12 +16,12 @@
         />
         <ul class="header__links">
           <li class="header__list-item">
-            <a class="header__lang-link">
+            <a href="" class="header__lang-link header__lang-link_line">
               Ru
             </a>
           </li>
           <li class="header__list-item">
-            <a class="header__lang-link">
+            <a href="" class="header__lang-link header__lang-link_line">
               En
             </a>
           </li>
@@ -36,12 +36,16 @@
           <p class="lead__subtitle">
             Настоящая страна не в выпусках новостей, а здесь.
           </p>
-          <img
-            src="./images/lead-polka.jpg"
-            alt="Человек в поезде"
-            class="lead__image"
-          />
-          <p class="lead__caption">ваша полка — верхняя</p>
+          <figure class="lead__train">
+            <img
+              src="./images/lead-polka.jpg"
+              alt="Человек в поезде"
+              class="lead__image"
+            />
+            <figcaption>
+              <p class="lead__caption">ваша полка — верхняя</p>
+            </figcaption>
+          </figure>
         </section>
 
         <section class="intro">
@@ -62,23 +66,23 @@
           </p>
           <ul class="intro__list">
             <li class="intro__list-item">
-              Часовых поясов 11
+              <strong>Часовых поясов</strong>&#160;11
             </li>
 
             <li class="intro__list-item">
-              Объектов природного наследия ЮНЕСКО 12
+              <strong>Объектов природного наследия ЮНЕСКО</strong>&#160;12
             </li>
 
             <li class="intro__list-item">
-              Объектов культурного наследия ЮНЕСКО 16
+              <strong>Объектов культурного наследия ЮНЕСКО</strong>&#160;16
             </li>
 
             <li class="intro__list-item">
-              Природных заповедников 105
+              <strong>Природных заповедников</strong>&#160;105
             </li>
 
             <li class="intro__list-item">
-              Аэропортов 241
+              <strong>Аэропортов</strong>&#160;241
             </li>
           </ul>
         </section>
@@ -147,7 +151,7 @@
         </section>
 
         <section class="places">
-          <div class="place">
+          <article class="place">
             <h2 class="place__title">Куршская коса</h2>
 
             <div class="place__website">
@@ -175,9 +179,9 @@
                 прохладного моря.
               </p>
             </div>
-          </div>
+          </article>
 
-          <div class="place">
+          <article class="place">
             <h2 class="place__title">Кольский</h2>
             <div class="place__website">
               <p class="place__url-heading">URL</p>
@@ -208,9 +212,9 @@
                 с билетом в Мурманск.
               </p>
             </div>
-          </div>
+          </article>
 
-          <div class="place">
+          <article class="place">
             <h2 class="place__title">Алтай</h2>
             <div class="place__website">
               <p class="place__url-heading">URL</p>
@@ -241,9 +245,9 @@
                 края.
               </p>
             </div>
-          </div>
+          </article>
 
-          <div class="place">
+          <article class="place">
             <h2 class="place__title">Зимний Байкал</h2>
             <div class="place__website">
               <p class="place__url-heading">URL</p>
@@ -271,15 +275,13 @@
                 197.011 км/ч.
               </p>
             </div>
-          </div>
+          </article>
 
-          <div class="place">
+          <article class="place">
             <h2 class="place__title">Карелия</h2>
             <div class="place__website">
               <p class="place__url-heading">URL</p>
-              <a href="http://vodlozero.ru" class="place__link"
-                >http://vodlozero.ru/</a
-              >
+              <a href="http://vodlozero.ru" class="place__link"></a>
             </div>
             <img
               src="./images/place-karelia.jpg"
@@ -299,59 +301,54 @@
                 помечены медвежьими когтями. Чтобы все знали, кто тут хозяин.
               </p>
             </div>
-          </div>
+          </article>
         </section>
 
         <section class="cover">
-          <div class="cover__background">
-            <img
-              src="./images/cover-trains.jpg"
-              alt="Железнодорожная станция"
-              class="cover__image-splinter"
-            />
-          </div>
-
-          <section class="cover__text">
-            <a
-              href="https://stampsy.com/na-elektrichkakh-do-baikala"
-              class="cover__overlay"
-            >
-              <h2 class="cover__title">До Байкала «на собаках»</h2>
-              <p class="cover__subtitle">
-                По мотивам учебной темы о Транссибе и iframes — путешествие от
-                столицы до Байкала на электричках.
-              </p>
-            </a>
-          </section>
+          <a
+            href="https://stampsy.com/na-elektrichkakh-do-baikala"
+            class="cover__overlay"
+          >
+            <h2 class="cover__title">До Байкала «на собаках»</h2>
+            <p class="cover__subtitle">
+              По мотивам учебной темы о Транссибе и iframes — путешествие от
+              столицы до Байкала на электричках.
+            </p>
+          </a>
         </section>
       </main>
 
       <footer class="footer">
-        <ul class="footer__list">
-          <li class="footer__list-item">
-            <a href="https://yandex.ru/maps" class="footer__link">Карты</a>
-          </li>
+        <nav>
+          <ul class="footer__list">
+            <li class="footer__list-item">
+              <a href="https://yandex.ru/maps" class="footer__link">Карты</a>
+            </li>
 
-          <li class="footer__list-item">
-            <a href="https://yandex.ru/pogoda" class="footer__link">Погода</a>
-          </li>
+            <li class="footer__list-item">
+              <a href="https://yandex.ru/pogoda" class="footer__link">Погода</a>
+            </li>
 
-          <li class="footer__list-item">
-            <a href="https://rasp.yandex.ru" class="footer__link">Расписание</a>
-          </li>
+            <li class="footer__list-item">
+              <a href="https://rasp.yandex.ru" class="footer__link"
+                >Расписание</a
+              >
+            </li>
 
-          <li class="footer__list-item">
-            <a href="https://calendar.yandex.ru" class="footer__link"
-              >Календарь</a
-            >
-          </li>
+            <li class="footer__list-item">
+              <a href="https://calendar.yandex.ru" class="footer__link"
+                >Календарь</a
+              >
+            </li>
 
-          <li class="footer__list-item">
-            <a href="https://travel.yandex.ru" class="footer__link"
-              >Путешествия</a
-            >
-          </li>
-        </ul>
+            <li class="footer__list-item">
+              <a href="https://travel.yandex.ru" class="footer__link"
+                >Путешествия</a
+              >
+            </li>
+          </ul>
+        </nav>
+
         <div class="footer__copyright">&copy; 2020. Киямова Эльвира</div>
       </footer>
     </div>

@@ -1,12 +1,22 @@
 @import url(./__overlay/cover__overlay.css);
 @import url(./__subtitle/cover__subtitle.css);
 @import url(./__title/cover__title.css);
-@import url(./__text/cover__text.css);
-@import url(./__background/cover__background.css);
-@import url(./__image-splinter/cover__image-splinter.css);
 
 .cover {
-  max-width: 1184px;
+  max-width: 100%;
+  width: 100%;
+  min-height: 740px;
+  background-image: url(../../images/cover-trains.jpg);
+  background-size: 1184px 740px;
+  background-repeat: no-repeat;
   margin: 0 auto;
   position: relative;
+  opacity: 0.8;
+  background-position: center;
+}
+
+.cover:hover:before {
+  content: "";
+  display: block;
+  opacity: 0.3;
 }

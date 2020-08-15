@@ -1,8 +1,8 @@
 .place__website {
-  position: relative;
+  align-self: flex-end;
 }
 
-@media (max-width: 668px) {
+@media (max-width: 767px) {
   .place__website {
     display: none;
   }

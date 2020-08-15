@@ -1,4 +1,5 @@
 @import url(./__lang-link/header__lang-link.css);
+@import url(./__lang-link/__lang-link_line/header__lang-link_line.css);
 @import url(./__links/header__links.css);
 @import url(./__list-item/header__list-item.css);
 @import url(./__logo/header__logo.css);
@@ -28,7 +29,7 @@
 /*от 768 и до 1024 пикселей — от вертикального до горизонтального положения планшета*/
 @media (max-width: 1024px) {
   .header {
-    max-width: 980px;
+    max-width: 928px;
   }
 }
 
@@ -43,6 +44,5 @@
 @media (max-width: 425px) {
   .header {
     max-width: 288px;
-    margin: 0 auto 48px;
   }
 }

@@ -3,11 +3,10 @@
   line-height: 22px;
   color: #ffffff;
   margin: 0;
-  position: absolute;
-  left: 0;
-  bottom: 0;
+  opacity: 0.8;
+  transition: opacity 0.5s linear;
 }
 
 .place__link:hover {
-  opacity: 0.8;
+  opacity: 0.3;
 }
