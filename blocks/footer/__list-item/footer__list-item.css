@@ -9,11 +9,10 @@
   margin: 0;
 }
 
-@media (max-width: 510px) {
+@media (max-width: 700px) {
   .footer__list-item {
     margin-top: 32px;
-  }
-  .footer__list-item:nth-child(1) {
-    margin-left: 18px;
+    margin-left: 0;
+    
   }
 }

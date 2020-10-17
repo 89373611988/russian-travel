@@ -16,9 +16,17 @@
   background-repeat: no-repeat;
 }
 
-@media (min-width: 769px) and (max-width: 1184px) {
+@media (min-width: 1024px) and (max-width: 1184px) {
   .cover {
     min-height: 640px;
+    width: 1024px;
+  }
+}
+
+@media (min-width: 930px) and (max-width: 1023px) {
+  .cover {
+    min-height: 640px;
+    width: 900px;
   }
 }
 
@@ -30,6 +38,18 @@
 
 @media (min-width: 200px) and (max-width: 479px) {
   .cover {
-    min-height: 200px;
+    min-height: 216px;
+  }
+}
+
+@media (min-width: 321px) and (max-width: 375px) {
+  .cover {
+    min-height: 272px;
+  }
+}
+
+@media (min-width: 200px) and (max-width: 320px) {
+  .cover {
+    min-height: 216px;
   }
 }

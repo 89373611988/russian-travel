@@ -1,17 +1,29 @@
+* {
+   outline-width: 1px;
+   outline-style: solid;
+   outline-color: red;
+}
 
 .page {
   font-family: "Inter";
   font-style: normal;
   margin: 0 auto;
   color: #ffffff;
-  padding: 28px 0 24px;
+  padding: 30px 0 48px;
   background-color: #2a2c2f;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-@media (max-width: 426px) {
+@media (max-width: 768px) {
   .page {
     padding-top: 16px;
+  }
+}
+
+
+@media (max-width: 426px) {
+  .page {
+    padding-bottom: 24px;
   }
 }
